@@ -4,9 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- style css -->
     <title>Esercizio DB First</title>
 </head>
-<body>
-    <img src="img excel/Esercizio DB First.jpg" alt="Esercizio DB First.jpg">
-</body>
+    <body>
+    <!-- <img src="img excel/Esercizio DB First.jpg" alt="Esercizio DB First.jpg"> -->
+        <main>
+            <h1>first table (entity) structure</h1>
+            <div class="box">
+                <table>
+                    <tr>
+                        <th class="column">Colonne</th>
+                        <th>tipo di dato</th>
+                        <th>Attributi</th>
+                        <th>Indice</th>
+                    </tr>
+                    <tr>
+                        <td class="row">matricola_id</td>
+                        <td>mediumint</td>
+                        <td>a.i, not null, unique</td>
+                        <td>PK</td>
+                    </tr>
+                    <tr>
+                        <td>tipo di veicolo</td>
+                        <td>text</td>
+                        <td>not null</td>
+                    </tr>
+                    <tr>
+                        <td>carrozzeria</td>
+                        <td>varchar(20)</td>
+                        <td>not null</td>
+                    </tr>
+                    <tr>
+                        <td>km</td>
+                        <td>mediumint</td>
+                        <td>not null</td>
+                    </tr>
+                    <tr>
+                        <td>anno</td>
+                        <td>year</td>
+                        <td>not null</td>
+                    </tr>
+                    <tr>
+                        <td>potenza</td>
+                        <td>mediumint</td>
+                        <td>not null</td>
+                    </tr>
+                    <tr>
+                        <td>alimentazione</td>
+                        <td>text</td>
+                        <td>not null</td>
+                    </tr>
+                    <tr>
+                        <td>revisione</td>
+                        <td>date</td>
+                        <td>not null</td>
+                    </tr>
+                    <tr>
+                        <td>colore tinta</td>
+                        <td>varchar(20)</td>
+                        <td>not null</td>
+                    </tr>
+                    <tr>
+                        <td>interni</td>
+                        <td>text</td>
+                        <td>null</td>
+                    </tr>
+                    <tr>
+                        <td>prezzo</td>
+                        <td>float 7,2</td>
+                        <td>not null</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </body>
 </html>
